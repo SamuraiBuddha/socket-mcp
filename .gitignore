@@ -8,12 +8,19 @@ socket-mcp.dxt
 coverage
 *.tgz
 
-# Generated types
+# Environment files
+.env
+.env.local
+.env.*.local
 
+# Generated types
 *.d.ts
 *.d.ts.map
 
 # Generated js
-
 *.js
 !*.config.js
+
+# Docker volumes
+config/
+logs/
